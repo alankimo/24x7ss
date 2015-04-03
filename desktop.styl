@@ -1,7 +1,7 @@
 @import 'vars.styl'
 
 body
-	background url(assets/bg-red.png) 0 10% repeat-x base
+	background url(assets/bg-red.png) 0 100% repeat-x base
 	font-family open
 
 .wrap
@@ -9,6 +9,7 @@ body
 	height 400px
 	margin 20px auto 0 auto
 	width 1200px
+	
 /*-----------------------------------------------------------------------------------------------------> header*/
 
 .logo
@@ -36,6 +37,7 @@ body
 				a
 					color #fff
 					padding 10px 25px
+					transition(.15s)
 					
 					&:hover
 						background-color rojo
@@ -71,6 +73,7 @@ body
 .wrap_white
 	background-color #fff
 	padding-bottom 85px
+	box-shadow (0px 0px 25px 0px rgba(50, 50, 50, 0.45))
 .headcont
 	margin-top 84px
 	text-align center
@@ -81,18 +84,57 @@ body
 	.content
 		
 		margin 20px 120px 55px 120px
-.global
-	text-align center
-	.textos
-		margin 60px 0
-		.title_red
-			color rojo
-			h4
-				font-size 1.5em
-		.sub_red
-			margin 0 25px
-			font-weight 300
 
-	
+.textos
+	margin 70px 0
+	text-align center
+	.title_red
+		color rojo
+		h4
+			font-size 1.5em
+	.sub_red
+		margin 0 50px
+		font-weight 300
+.esquema
+	margin-top 80px
+	img
+		margin 0 auto
+/*-----------------------------------------------------------------------------------------------------> footer*/
+footer
+	height 180px
+	background-color grisfinal
+	position relative
+	top 1960px
+	.wrapgrey
+		width 1200px
+		height 84px
+		background-color grisfoo
+		margin 0 auto
+.arrow
+	color heavy
+	position relative
+	top 32px
+.arrow2
+	color heavy
+	position relative
+	top 32px
+	text-align right
+.marcas
+	color heavy
+	position relative
+	top 30px
+	text-align center
+.enlaces
+	margin-top 20px
+	color heavy
+	span
+		a
+			color heavy
+			&:hover
+				text-decoration none
+.legal
+	margin-top 20px
+	color heavy
+
 		
 			
