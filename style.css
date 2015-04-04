@@ -9,6 +9,119 @@ Version: 1.0
 @import url 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700)';
 @import '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
 /* Mobile Firts */
+@media screen and (max-width: 768px) {
+  body {
+    background: url("assets/bg-red.png") 0 -14% repeat-x #efefef;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .wrap {
+    background-image: url("assets/top-base.png");
+    margin: 5% auto 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: 0% 0%;
+    max-width: 480px;
+  }
+  .logo {
+    position: relative;
+    top: 35px;
+    margin-bottom: 40px;
+  }
+  .logo img {
+    max-width: 50%;
+    height: auto;
+  }
+  .triggermenu {
+    font-size: 2.5em;
+    text-align: right;
+    color: #ff343c;
+    position: relative;
+    top: 40px;
+  }
+  .photoback {
+    background: url("assets/slider01.png") 0 20% no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  .textbtn {
+    position: relative;
+    top: 160px;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 1px 20px 20px 20px;
+  }
+  .textbtn .title {
+    text-transform: uppercase;
+  }
+  .textbtn .title h3 span {
+    font-weight: 300;
+  }
+  .textbtn .content {
+    width: 100%;
+    font-weight: 300;
+    font-size: 0.8em;
+  }
+  .textbtn .boton {
+    margin-top: 15px;
+  }
+  .textbtn .boton a {
+    padding: 8px 10px;
+    background-color: #ff343c;
+    font-size: 0.8em;
+    color: #fff;
+  }
+  .headcont {
+    margin-top: 180px;
+  }
+  .imagen img {
+    margin: 0 auto;
+  }
+  .title {
+    text-align: center;
+  }
+  .title h2 {
+    font-weight: 300;
+    font-size: 1.5em;
+  }
+  .content {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 30px;
+  }
+  .textos {
+    margin: 20% 0;
+    text-align: center;
+  }
+  .title_red {
+    color: #ff343c;
+  }
+  .title_red h4 {
+    font-size: 1.5em;
+  }
+  .sub_red {
+    margin: 0 5%;
+    font-weight: 300;
+  }
+  .textos2 {
+    background-color: #dcdcdc;
+    padding: 25px 15px;
+    text-align: center;
+  }
+  .textos2 .title_red {
+    color: #000;
+  }
+  footer {
+    margin-top: 10px;
+    text-align: center;
+    color: #969696;
+  }
+  footer a {
+    color: #969696;
+  }
+}
 /* Tablets: Landscape */
 /* Desktops */
 @media screen and (min-width: 1200px) {
@@ -119,6 +232,20 @@ Version: 1.0
     font-size: 1.5em;
   }
   .textos .sub_red {
+    margin: 0 50px;
+    font-weight: 300;
+  }
+  .textos2 {
+    margin: 70px 0;
+    text-align: center;
+  }
+  .textos2 .title_red {
+    color: #ff343c;
+  }
+  .textos2 .title_red h4 {
+    font-size: 1.5em;
+  }
+  .textos2 .sub_red {
     margin: 0 50px;
     font-weight: 300;
   }
