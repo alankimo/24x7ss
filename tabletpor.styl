@@ -1,22 +1,26 @@
 @import 'vars.styl'
 
 body
-	background url(assets/bg-red.png) 0 100% repeat-x base
+	background url(assets/bg-red.png) 0 -14% repeat-x base
 	font-family open
 
 .wrap
-	background url(assets/top-base.png) 50% 0 no-repeat #fff
-	height 400px
-	margin 20px auto 0 auto
-	width 1200px
-	
+	background-image url(assets/top-base.png) 
+	margin 5% auto 0 auto
+	background-size contain
+	background-repeat no-repeat
+	background-color #fff
+	background-position 0% 0% 
+	max-width 800px
+	overflow hidden
 /*-----------------------------------------------------------------------------------------------------> header*/
 
 .logo
 	position relative
 	top 15px
+	right 20px
 	img
-		width 160px
+		width 140px
 		height auto
 
 .nav-bar
@@ -36,7 +40,7 @@ body
 
 				a
 					color #fff
-					padding 10px 25px
+					padding 10px 15px
 					transition(.15s)
 					
 					&:hover
@@ -45,12 +49,15 @@ body
 /*-----------------------------------------------------------------------------------------------------> headpage*/
 .photoback
 	background url(assets/slider01.png) 0 0 no-repeat #fff	
-	width 1200px	
-	height 420px
+	width 100%	
+	height 400px
 .textbtn
+	background-color grisfinal
+	padding 1px 20px 20px 20px
+	text-align center
 	position relative
-	top 270px
-	color #fff
+	top 220px
+	color #000
 	.title
 		text-transform uppercase
 		h3
@@ -68,11 +75,9 @@ body
 			&:hover
 				text-decoration none
 			color #fff
-						
 /*-----------------------------------------------------------------------------------------------------> content*/	
 .wrap_white
 	background-color #fff
-	padding-bottom 85px
 	box-shadow (0px 0px 25px 0px rgba(50, 50, 50, 0.45))
 .headcont
 	margin-top 84px
@@ -89,63 +94,41 @@ body
 		
 		margin 20px 120px 55px 120px
 
+.imagen
+	margin-top 35px
 .textos
-	margin 70px 0
+	margin 30% 0
 	text-align center
-	.title_red
-		color rojo
-		h4
-			font-size 1.5em
-	.sub_red
-		margin 0 50px
-		font-weight 300
+.title_red
+	color rojo
+	h4
+		font-size 1.5em
+.sub_red
+	margin 0 2%
+	font-weight 300
+		
 .textos2
 	margin 70px 0
 	text-align center
+	background-color grisfinal
+	height 150px
 	.title_red
-		color rojo
+		position relative
+		top 20px
+		
+		color #000
 		h4
 			font-size 1.5em
 	.sub_red
 		margin 0 50px
 		font-weight 300
-.esquema
-	margin-top 80px
-	img
-		margin 0 auto
-/*-----------------------------------------------------------------------------------------------------> footer*/
+		position relative
+		top 30px
+		font-size 1.2em
+/*----------------------------------------------------------------------------------------------footer*/
 footer
-	height 180px
-	background-color grisfinal
-	position relative
-	top 1960px
-	.wrapgrey
-		width 1200px
-		height 84px
-		background-color grisfoo
-		margin 0 auto
-.arrow
-	color heavy
-	position relative
-	top 32px
-.arrow2
-	color heavy
-	position relative
-	top 32px
-	text-align right
-.marcas
-	color heavy
-	position relative
-	top 30px
+	margin-top 10px
 	text-align center
-.enlaces
-	margin-top 20px
 	color heavy
-	span
-		a
-			color heavy
-			&:hover
-				text-decoration none
-.legal
-	margin-top 20px
-	color heavy
+	a
+		color heavy
