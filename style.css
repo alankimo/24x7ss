@@ -11,11 +11,9 @@ Version: 1.0
 /* Mobile Firts */
 @media screen and (max-width: 767px) {
   body {
-    background: url("assets/bg-red.png") 0 -14% repeat-x #efefef;
     font-family: 'Open Sans', sans-serif;
   }
   .wrap {
-    background-image: url("assets/top-base.png");
     margin: 5% auto 0 auto;
     background-size: contain;
     background-repeat: no-repeat;
@@ -25,19 +23,19 @@ Version: 1.0
   }
   .logo {
     position: relative;
-    top: 35px;
+    top: 5px;
     margin-bottom: 40px;
   }
   .logo img {
-    max-width: 50%;
+    max-width: 70%;
     height: auto;
   }
   .triggermenu {
-    font-size: 2.5em;
+    font-size: 2.3em;
     text-align: right;
     color: #ff343c;
     position: relative;
-    top: 40px;
+    top: 20px;
   }
   .photoback {
     background: url("assets/slider01.png") 0 20% no-repeat;
@@ -338,12 +336,11 @@ Version: 1.0
     height: 400px;
   }
   .textbtn {
-    background-color: #dcdcdc;
     padding: 1px 20px 20px 20px;
-    text-align: center;
+    left: 540px;
     position: relative;
-    top: 220px;
-    color: #000;
+    top: 260px;
+    color: #fff;
   }
   .textbtn .title {
     text-transform: uppercase;
@@ -352,8 +349,9 @@ Version: 1.0
     font-weight: 300;
   }
   .textbtn .content {
-    text-align: center;
     font-weight: 300;
+    width: 40%;
+    font-size: 0.8em;
   }
   .textbtn .boton {
     margin-top: 15px;
@@ -508,9 +506,16 @@ Version: 1.0
     background-color: #ff343c;
     font-size: 0.8em;
     color: #fff;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
   }
   .textbtn .boton a:hover {
     text-decoration: none;
+    background-color: #dcdcdc;
+    color: #000;
   }
   .wrap_white {
     background-color: #fff;
@@ -602,9 +607,15 @@ Version: 1.0
   }
   .enlaces span a {
     color: #969696;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
   }
   .enlaces span a:hover {
     text-decoration: none;
+    color: #353535;
   }
   .legal {
     margin-top: 20px;
